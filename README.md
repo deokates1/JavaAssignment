@@ -17,8 +17,8 @@ python 50
 Output:
 ================================
 java                100 
-cpp                065 
-python          050 
+cpp                 065 
+python              050 
 ================================
 Output Format
 In each line of output there should be two columns:
@@ -133,33 +133,50 @@ Input number of rows: 5
 TASK FIVE : ARRAYS
 
 1.Write a Java program to remove duplicate elements from an array.
+
 2. Write a Java program to find the second largest element in an array.
+
 3. Write a Java program to find the second smallest element in an array.
+
 4. Write a Java program to add two matrices of the same size.
+
 5. Write a Java program to move all 0's to the end of an array. Maintain the relative order of the other (non-zero) array elements.
+
 6. Write a program to remove the duplicates from a sorted array change them into 0 and add 0 in the end.
 input: [2,2,3,3,4,4,4,11,11,11,11]
 output:[2,3,4,11,0,0,0,0,0,0,0]
+
 7. Write a Java program to get the difference between the largest and smallest values in an array of integers. The length of the array must be 1 and above.
+
 8. Write a Java program to remove the duplicate elements of a given array and return the new length of the array.
+
 9. Write a Java program to find the sum of the two elements of a given array which is equal to a given integer.
 Sample array: [1,2,4,5,6]
 Target value: 6.
+
 10. Write a Java program to find the two elements from a given array of positive and negative numbers such that their sum is closest to zero.
+
 11. Write a Java program to sort an array of positive integers of a given array, in the sorted array the value of the first element should be maximum, second value should be minimum value, third should be second maximum, fourth second be second minimum and so on.
 
 TASK SIX : ARRAYS AND STRING
 1.Write a JAVA program that takes given String of words and return the length of the shortest word.
+
 2.Write a JAVA program that gives sum of all the values of array except the highest and lowest values.
+
 3.Write a JAVA method to remove all the spaces from the String and return the resultant.
+
 4.Write a JAVA method to return a boolean true if the string doesn’t have repeating letters and consecutive or nonconsecutive i.e. all the letters of the string be unique (isogram) else false.
+
 5.Write a JAVA program that reverse the words of a sentence.
 For eg, => “Be Happy and Stay Motivated” => “eB yppah dna yatS detavitoM”. 
+
 6.Write a JAVA program that takes out the even from the odds and odd from the list of even numbers,
 For eg, => {23,25,75,87,47,1,91,51,2} //Output for this case =>2
 => {22,44,64,76,98,12,43,54,90} // Output for this case =>43.
+
 7.Write a JAVA program that swaps the case of the alphabets of the string,
 For eg,  => “heLLo WOrLd” => “HEllO woRlD”.
+
 8.Write a JAVA program that gives boolean values; true, if the string has balanced braces and false, if the string has unbalanced braces:
 For eg,  => “[(){{}{}}({})]” //output => true
 //valid parenthesis
@@ -195,18 +212,31 @@ For example, while creating object if we pass "Java", then "I love Java" should 
 
 TASK EIGHT: PROGRAMMING QUESTIONS (USE JAVA 8 FEATURES)
 1.Program to reverse a string in java
+
 2.Program to find the first non-repeated character in the String
+
 3.Program to find the intersection of two arrays in java?
+
 4.Program to find if String has all Unique Characters?
+
 5.Program to Count the number of words in the String?
+
 6.Program to check the number is Armstrong number?
+
 7.Program to Count occurrences of each character in a string in java?
+
 8.Print all permutations of the String 
+
 9.Find the maximum value in Array without using Collection?
+
 10.Find all possible combinations of String? (using recursion)
+
 11.Find to sort HashMap in java by keys and values?
+
 12.Program to find all the sub-array whose sum is equal to the given number?
+
 13.Find the Average value in a list of Integers using stream? 
+
 14.Convert the string in upper case using stream?
 
 
