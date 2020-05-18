@@ -43,6 +43,21 @@ public class Task5 {
         for(int i : result)
             System.out.println("Element: "+arr6.get(i) + " ");*/
 
+        /*int[] arr7 = {9,8,-9,-1,3,5,6,-4,7};
+        System.out.println("Difference between two elements :"+ closeToZero(arr7));*/
+
+        int arr8[] = {10, 30, 80, 90, 60, 100, 20, 40, 70, 50};
+        int result[];
+
+        System.out.println("Original Array ");
+        System.out.println(Arrays.toString(arr8));
+
+        result = maxMinSort(arr8);
+
+        System.out.println("New Array ");
+        System.out.println(Arrays.toString(result));
+
+
 
     }
 
@@ -247,5 +262,51 @@ public class Task5 {
 
         return result;
     }
+
+    static int closeToZero(int[] arr){
+        //Write a Java program to find the two elements from a given array of positive and negative numbers such that their sum is closest to zero.
+        int n, min1 = 0, min2 = 1, sum, minimum;
+        n = arr.length;
+        minimum=Math.abs(arr[0] + arr[1]);
+        for(int i = 0; i < n; i++)
+        {
+            for(int j = i + 1; j < n; j++)
+            {
+                sum = Math.abs(arr[i] + arr[j]);
+                if(sum < minimum)
+                {
+                    min1 = i;
+                    min2 = j;
+                    minimum = sum;
+                }
+            }
+        }
+        System.out.println("Element 1:"+arr[min1]);
+        System.out.println("Element 2:"+arr[min2]);
+        return Math.abs(arr[min1]+arr[min2]);
+    }
+
+    static int[] maxMinSort(int [] arr){
+
+        int len = arr.length;
+        Arrays.sort(arr);
+        int temp[] = new int[len];
+
+        int small_num = 0, large_num = len-1;
+        boolean flag = true;
+
+        for (int i=0; i < len; i++)
+        {
+            if (flag)
+                temp[i] = arr[large_num--];
+            else
+                temp[i] = arr[small_num++];
+
+            flag = !flag;
+        }
+
+        return temp;
+    }
+
 }
 
